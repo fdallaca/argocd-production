@@ -16,7 +16,6 @@ spec:
         image:
           tag: latest
         ingress:
-          ingressClassName: nginx
           host: devopstoolkit.127.0.0.1.nip.io
       version: v3
   destination:
