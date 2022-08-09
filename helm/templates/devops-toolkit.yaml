@@ -17,6 +17,7 @@ spec:
           tag: latest
         ingress:
           ingressClassName: nginx
+          host: *
       version: v3
   destination:
     namespace: production
