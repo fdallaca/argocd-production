@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: devopstoolkitseries.com
+          ingressClassName: nginx
       version: v3
   destination:
     namespace: production
